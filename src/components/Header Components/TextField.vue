@@ -53,7 +53,7 @@ export default {
 	@media screen and (max-width: 750px) {
 		div {
 			margin-left: 5%;
-			margin-top: 20px;
+			margin-top: 50%;
 		}
 	}
 

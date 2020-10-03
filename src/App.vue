@@ -2,17 +2,23 @@
   <div>
     <MainNavBar />
     <Header name='Nsovo' img=''/>
+    <About />
   </div>
 </template>
 
 <script>
+  // Imports components
   import Header from './components/Header.vue';
   import MainNavBar from './components/MainNavBar.vue';
+  import About from './components/About.vue'
+
+  // Export
   export default {
     name: 'App',
     components: {
       Header,
-      MainNavBar
+      MainNavBar,
+      About
     }
   }
 </script>
@@ -29,7 +35,9 @@
   }
 
   :root {
-    --main-background-color: #222;
+    --main-background-color: #1e515d;
+    --secondary-background-color: #444666;
+    --emphasised-color: coral;
     --main-text-color: #fff;
     --emphasised-text-color:#ffa500;
   }

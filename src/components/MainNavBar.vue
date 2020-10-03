@@ -2,8 +2,8 @@
 	<div>
 		<ul>
 			<li><a href="#">Contact</a></li>
-			<li><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
+			<li><a href="#">Skills</a></li>
 			<li><a href="#">Work</a></li>
 		</ul>
 	</div>
@@ -22,7 +22,7 @@
 	}
 
 	div {
-		margin-top: 2.5%;
+		margin: 2.5%;
 	}
 
 	ul {
@@ -41,12 +41,13 @@
 
 	a {
 		text-decoration: none;
+		font-size: 115%;
 		transition: font-size 0.5s, color 0.25s;
 		margin: 20px;
 	}
 
 	a:hover {
-		font-size: 110%;
+		font-size: 125%;
 		color: var(--emphasised-text-color);
 	}
 

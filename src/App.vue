@@ -3,6 +3,7 @@
     <MainNavBar />
     <Header name='Nsovo' img=''/>
     <About />
+    <Skills />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
   import Header from './components/Header.vue';
   import MainNavBar from './components/MainNavBar.vue';
   import About from './components/About.vue';
+  import Skills from './components/Skills.vue';
 
   // Export
   export default {
@@ -18,7 +20,8 @@
     components: {
       Header,
       MainNavBar,
-      About
+      About,
+      Skills
     }
   }
 </script>
@@ -36,7 +39,7 @@
 
   :root {
     --main-background-color: #1e515d;
-    --secondary-background-color: #444666;
+    --secondary-background-color: #3e6e7a;
     --emphasised-color: coral;
     --main-text-color: #fff;
     --emphasised-text-color:#ffa500;

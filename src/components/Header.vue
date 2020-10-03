@@ -1,7 +1,7 @@
 <template>
 	<div id='header'>
 		<TextField :name=name />
-		<img src='../assets/my-photo.jpg' />
+		<img src='../assets/images/my-photo.jpg' />
 	</div>
 </template>
 
@@ -27,7 +27,7 @@
 		margin-top: -7.5vh;
 		height: 85vh;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.70)),
-		url('../assets/CodeWall.jpg');
+		url('../assets/images/CodeWall.jpg');
 		background-size: cover;
 		background-position: centre;
 		

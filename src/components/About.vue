@@ -21,26 +21,26 @@
 <style scoped>
 	div {
 		margin: auto;
-		margin: 10vh auto 10vh auto;
+		margin-top: 10vh;
 		width: 75%;
 		text-align: center;
-		background-color: var(--main-background-color);
 	}
 
 	h2 {
 		font-weight: normal;
+		font-size: 175%;
 	}
 
 	h2:after {
 		content: '';
 		display: block;
 		background-color: var(--emphasised-color);
-		width: 150px;
+		width: 175px;
 		height: 3px;
 		margin: auto;
 	}
 
 	p {
-		margin-top: 2.5vh;
+		margin-top: 5.5vh;
 	}
 </style>

@@ -10,7 +10,7 @@
   // Imports components
   import Header from './components/Header.vue';
   import MainNavBar from './components/MainNavBar.vue';
-  import About from './components/About.vue'
+  import About from './components/About.vue';
 
   // Export
   export default {

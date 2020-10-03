@@ -22,7 +22,7 @@
 	}
 
 	div {
-		margin: 2.5%;
+		margin-top: 2%;
 	}
 
 	ul {

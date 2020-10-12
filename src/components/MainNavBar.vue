@@ -35,7 +35,7 @@ ul {
 
 li:first-child a {
   padding: 0px 10px 3px 10px;
-  border-bottom: 2px solid coral;
+  border-bottom: 2px solid var(--emphasised-color);
 }
 
 a {

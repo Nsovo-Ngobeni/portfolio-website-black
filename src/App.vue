@@ -40,10 +40,10 @@ export default {
 }
 
 :root {
-  --main-background-color: #1e515d;
-  --secondary-background-color: #3e6e7a;
-  --emphasised-color: coral;
+  --main-background-color: #005da4;
+  --secondary-background-color: #0085bf;
+  --emphasised-color: #ff881a;
   --main-text-color: #fff;
-  --emphasised-text-color: #ffa500;
+  --emphasised-text-color: #ff881a;
 }
 </style>
